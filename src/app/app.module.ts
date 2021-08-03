@@ -8,15 +8,15 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
-import { FormComponent } from './form/form.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FormComponent } from './pages/form/form.component';
 
-import { FotoComponent } from './foto/foto.component';
-import { ContatoComponent } from './contato/contato.component';
+import { FotoComponent } from './pages/foto/foto.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 import { environment } from 'src/environments/environment';
 import { PanelcontrolComponent } from './admin/admin/panelcontrol/panelcontrol.component';
-import { UpdateComponent } from './update/update.component';
+import { UpdateComponent } from './pages/update/update.component';
 
 
 @NgModule({
@@ -24,8 +24,7 @@ import { UpdateComponent } from './update/update.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FormComponent,
-    FotoComponent,
+    FormComponent,    
     ContatoComponent,
     PanelcontrolComponent,
     UpdateComponent

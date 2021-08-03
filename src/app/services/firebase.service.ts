@@ -3,7 +3,7 @@ import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/fire
 
 import { Foto } from '../interfaces/foto';
 import { map } from 'rxjs/operators'; 
-import { FormBuilder } from '@angular/forms';
+
 
 @Injectable({
   providedIn: 'root'

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { Foto } from '../interfaces/foto';
-import { FirebaseService } from '../services/firebase.service';
+import { Foto } from '../../interfaces/foto';
+import { FirebaseService } from '../../services/firebase.service';
 
 @Component({
   selector: 'app-update',
